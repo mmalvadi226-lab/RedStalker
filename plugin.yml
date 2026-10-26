@@ -1,0 +1,14 @@
+name: RedStalker
+version: 1.0.0
+main: com.kdmv.redstalker.RedStalkerPlugin
+api-version: '1.21'
+author: KDMV
+description: A spooky Red Stalker event for KDMV SMP
+commands:
+  redstalker:
+    description: Manage the Red Stalker
+    usage: /redstalker <spawn|stop>
+    permission: redstalker.admin
+permissions:
+  redstalker.admin:
+    default: op
